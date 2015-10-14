@@ -21,6 +21,9 @@
     },
     "extra": {
         "name": "to_string",
-        "class": "Weconstudio\\Propel\\Behavior\\ToString\\ToStringBehavior"
+        "class": "Weconstudio\\Propel\\Behavior\\ToString\\ToStringBehavior",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
