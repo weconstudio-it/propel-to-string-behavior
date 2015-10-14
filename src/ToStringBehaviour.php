@@ -8,7 +8,7 @@
  * @license GPLv2
  */
 
-namespace Weconstudio\Propel\Behavior\ToString;
+namespace Propel\Behavior\ToString;
 
 use Propel\Generator\Model\Behavior;
 
