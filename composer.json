@@ -1,0 +1,29 @@
+{
+    "name": "weconstudio-it/propel-to-string-behavior",
+    "description": "Propel ORM 2 ToString Behaviour",
+    "type": "propel-behavior",
+    "license": "GPLv2",
+    "keywords": ["propel", "behavior", "to string"],
+    "authors": [
+        {
+            "name": "Alessandro Cabutto",
+            "homepage": "https://github.com/acabutto"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Weconstudio\\Propel\\Behavior\\ToString\\" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "propel/propel": "~2.0@dev"
+    },
+    "extra": {
+        "name": "default-order",
+        "class": "GHarlan\\Propel\\Behavior\\ToString\\ToStringBehavior",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
