@@ -11,7 +11,7 @@ Add the package to your `composer.json`:
 ```json
 {
     "require": {
-        "weconstudio-it/propel-default-order-behavior": "~1.0@dev"
+        "weconstudio-it/weconstudio-it/propel-to-string-behavior": "~1.0@dev"
     }
 }
 ```
